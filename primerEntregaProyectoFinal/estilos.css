@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(255, 221, 3);
+}
+
+.boxTittle{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: rgb(0, 15, 176);
+    
+}
