@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+}
+
+.navbar {
+  background-color: #c461cf;
+}
+
+.nav-link {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
