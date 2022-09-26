@@ -1,7 +1,49 @@
 * {
   margin: 0;
   padding: 0;
-  overflow-y: hidden;
+}
+
+.contenedorProductos {
+  margin-top: 40px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.tituloProductoCSS {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.card {
+  margin-bottom: 20px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.1s;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+.imagenProductoCSS {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.botonProductoCSS {
+  display: inline-block;
+  margin: 5px;
+  border-radius: 15px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.botonProductoCSS:hover {
+  background-color: #6bff42;
 }
 
 .navbar {
@@ -14,4 +56,8 @@
 
 h1 {
   text-align: center;
+}
+
+.contenedorFooter {
+  background-color: #c461cf;
 }/*# sourceMappingURL=style.css.map */

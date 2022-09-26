@@ -1,5 +1,45 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-y: hidden;
+}
+
+.contenedorProductos{
+    margin-top: 40px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.tituloProductoCSS{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.card{
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform .1s;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.imagenProductoCSS{
+    object-fit: cover;
+    object-position: center;
+}
+
+.botonProductoCSS{
+    display: inline-block;
+    margin: 5px;
+    border-radius: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+    &:hover { 
+        background-color: rgba($color: hsl(107, 100%, 63%), $alpha: 1.0);
+    }
 }
